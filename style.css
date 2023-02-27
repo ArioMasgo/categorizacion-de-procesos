@@ -1,0 +1,61 @@
+
+#repositorio {
+  height: calc(100vh - 170px);
+  overflow: auto;
+}
+.etiqueta {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  cursor: grab;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los encabezados de la tabla */
+th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilos para las celdas de la tabla */
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Estilos para las celdas de la primera columna */
+td:first-child {
+  font-weight: 700;
+}
+
+/* Estilos para las celdas de la primera fila */
+tr:first-child td {
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+.table {
+  background-color: #f5f5f5;
+  color: #333;
+}
+.table td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.table td.seleccionado {
+  border: 2px solid #007bff;
+}
